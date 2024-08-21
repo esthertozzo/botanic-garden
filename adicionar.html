@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top mt-4">
+        <div class="container">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Botanic Garden</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 " aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 " aria-current="page" href="/#destaques">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 " aria-current="page" href="/atualizar-propriedadePlanta">Propriedades</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link mx-lg-2 " aria-current="page" href="/filtrar-planta">Filtrar Plantas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Adicionar Plantas</a>
+                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 " aria-current="page" href="/galeria">Galeria</a>
+                        </li>
+                    </ul>
+
+                    <!-- Barra de Pesquisa -->
+                    <!-- <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+
+                </div>
+            </div>
+            
+          <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" style="width: 50%;"></a>
+       
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        
+        <section class="hero__section">
+            <form action="/adicionar-NovaPlanta" method="POST" class="ms-5 mt-5">
+                <h2 class="mt-5 display-6">Adicionar nova <span>Planta</span>.</h2><br>
+                <div class="form-group">
+                    <input class="form-control border border-secondary border-opacity-50 p-3 mb-2 bg-transparent text-dark" type="text" id="nome_popular" name="nome_popular" placeholder="Digite o nome popular da planta" required><br>
+
+                    <input class="form-control border border-secondary border-opacity-50 p-3 mb-2 bg-transparent text-dark" type="text" id="nome_cientifico" name="nome_cientifico" placeholder="Digite o nome científico da planta" required><br>
+
+                    <input class="form-control border border-secondary border-opacity-50 p-3 mb-2 bg-transparent text-dark" type="text" id="carac_gerais" name="carac_gerais" placeholder="Digite as características gerais da planta" required><br>
+
+                    <input class="form-control border border-secondary border-opacity-50 p-3 mb-2 bg-transparent text-dark" type="text" id="propriedades" name="propriedades" placeholder="Digite a propriedade da planta" required><br>
+
+                    <input class="form-control border border-secondary border-opacity-50 p-3 mb-2 bg-transparent text-dark" type="url" id="url_foto" name="url_foto" placeholder="Copie a URL de uma imagem da planta" required><br>
+                    
+                    <button type="submit" class="botao__container border border-0 p-3 mb-2">Adicionar Planta</button>
+                </div>
+                
+            </form>
+            <img src="/img/ilustracao-vintage-de-stellata-smilacina.png" alt="" width="30%">
+              </section>
+</body>
+
+</html>

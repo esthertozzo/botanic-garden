@@ -1,0 +1,30 @@
+[
+  {
+    "nome_cientifico": "Sanguinaria canadensis",
+    "nome_popular": "Sanguinaria",
+    "carac_gerais": "Planta herbácea; Cresce até cerca de 20-30 centímetros de altura; As flores da Sanguinária são solitárias e têm pétalas brancas que se assemelham a pétalas de papoulas.",
+    "propriedades": "pendente",
+    "url_foto": "https://i.pinimg.com/564x/13/3b/96/133b966b2f16019ad1583f79deff4352.jpg"
+  },
+  {
+    "nome_cientifico": "Calathea",
+    "nome_popular": "Maranta",
+    "carac_gerais": "Herbácea rizomatosa; Nativa do Brasil e região Amazônica (Brasil, Colômbia e Venezuela), de grande valor paisagístico e ornamental; Suas folhas apresentam nervuras visíveis e vários tons de verde na página superior com manchas ou listras.",
+    "propriedades": "venenosa",
+    "url_foto": "https://i.pinimg.com/564x/ba/75/57/ba7557c3b542b815387672912e91a8be.jpg"
+  },
+  {
+    "nome_cientifico": "Orchidaceae",
+    "nome_popular": "Orquídea",
+    "carac_gerais": "Crescem indefinidamente, ou seja, não tem um tempo de vida máximo; Em maioria são epífetas (somente se apoiam em outras plantas, nunca retirando nuterientes ou sugando seiva); Possuem simetria lateral (ou seja, se colocada em pé, o lado esquerdo igual ao direito).",
+    "propriedades": "pendente",
+    "url_foto": "https://i.pinimg.com/564x/3a/c0/b6/3ac0b6deaa92a7600bfd72296481e7b4.jpg"
+  },
+  {
+    "nome_cientifico": "Dionaea muscipula",
+    "nome_popular": "Dionaea",
+    "carac_gerais": "É uma planta carnívora; Esta espécie produz um néctar que atrai os insetos e, ao tocar nas folhas, a presa é percebida nos pelos sensoriais; Suas folhas possuem formato que caracterizam sua armadilha.",
+    "propriedades": "pendente",
+    "url_foto": "https://i.pinimg.com/564x/4b/18/30/4b1830a4e1c743997516f5e9b58a0162.jpg"
+  }
+]

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top mt-4">
+        <div class="container">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Botanic Garden</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 " aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 " aria-current="page" href="/#destaques">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 " aria-current="page" href="/atualizar-propriedadePlanta">Propriedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="/filtrar-planta">Filtrar Plantas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link mx-lg-2 " aria-current="page" href="/adicionar-planta">Adicionar Plantas</a>
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 " aria-current="page" href="/galeria">Galeria</a>
+                        </li>
+                    </ul>
+
+                    <!-- Barra de Pesquisa -->
+                    <!-- <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+
+                </div>
+            </div>
+            
+          <a class="navbar-brand" href="index.html"><img src="/img/logo.svg" alt="" style="width: 50%;"></a>
+       
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        
+       
+        <section class="hero__section">
+            <section class="principais__artig py-5 mt-5">
+                <div class="conteiner2">
+                  <div class="text-center my-5 ms-5">
+                    <h1>Detalhes da <span>Planta</span>:</h1>
+                  </div>
+                  <div class="card__artig card mb-3 p-5 ms-5 me-5 border border-secondary border-opacity-50  bg-transparent text-dark me-2">
+                    <div class=" row g-0">
+                      <div class="col-md-4">
+                        <img src="{{url_foto}}" class="img-fluid rounded" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body px-5">
+                          <h5 class="card-title">{{nome_popular}}</h5>
+                          <p class="card-text">{{carac_gerais}}</p>
+                          <p class="card-text"><small class="text-body-secondary">{{propriedades}}</small></p>
+                          <div class="planta-propriedade"><span>{{nome_cientifico}}</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </section>
+              </section>
+        <!-- <div class="masthead" style="background-image: url('/img/fundo.png');">
+            <div class="color-overlay d-flex justify-content-center align-items-center">
+                
+            </div>
+        </div> -->
+   
+</body>
+
+</html>
